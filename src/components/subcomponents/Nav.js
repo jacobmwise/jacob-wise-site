@@ -13,7 +13,7 @@ class Nav extends React.Component {
         //     <a className="nav-item nav-link" href="/act">Activities</a>
         // ];
 
-        var links = {"/": "Home", "/exp": "Professional Experience", "/act": "Activities" };
+        var links = {"/": "Home", "/exp": "Professional Experience", "/act": "Activities", "/proj": "Projects" };
 
         var tags = [];
 
@@ -30,9 +30,6 @@ class Nav extends React.Component {
                     <a href={key} key={key} className="nav-item nav-link">{links[key]}</a>
                 );        
             }
-            // return(
-            //     <a>Home</a>
-            // );
         }
 
         return tags;
@@ -43,7 +40,6 @@ class Nav extends React.Component {
         return (
             <nav className="navbar navbar-expand-md navbar-light bg-info sticky-top border-bottom border-dark">
                 <a className="navbar-brand" href="#">Jacob Wise</a>
-                {/* <p className="navbar-brand">Navigation</p> */}
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
