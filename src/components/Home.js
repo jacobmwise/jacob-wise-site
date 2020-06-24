@@ -1,14 +1,15 @@
 import React from 'react';
 
-import Header from './subcomponents/Header';
+import Nav from './subcomponents/Nav';
 import Footer from './subcomponents/Footer';
+
 
 // import Section from './subcomponents/Section';
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Nav />
       
       <Footer />
     </div>
