@@ -7,17 +7,9 @@ class Nav extends React.Component {
 
     renderLinks() {
 
-        // var links = [
-        //     <a className="nav-item nav-link" href="/">Home <span className="sr-only">(current)</span></a>,
-        //     <a className="nav-item nav-link" href="/exp">Professional Experience</a>,
-        //     <a className="nav-item nav-link" href="/act">Activities</a>
-        // ];
-
         var links = {"/": "Home", "/exp": "Professional Experience", "/act": "Activities", "/proj": "Projects" };
 
         var tags = [];
-
-        
 
         for(var key in links) {
             if(key === this.state.url) {
@@ -39,7 +31,7 @@ class Nav extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-expand-md navbar-light bg-info sticky-top border-bottom border-dark">
-                <a className="navbar-brand" href="#">Jacob Wise</a>
+                <a className="navbar-brand" href="/">Jacob Wise</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
