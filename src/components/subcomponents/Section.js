@@ -7,12 +7,12 @@ const Section = (props) => {
     }
 
     return (
-        <ScrollAnimation animateIn='fadeIn' animateOut="fadeOut" style={reverse ? {height: '100vh', display: 'flex', flexDirection: 'row-reverse'} : {height: '100vh', display: 'flex'} }>
+        <ScrollAnimation animateIn='fadeIn' animateOut="fadeOut" style={reverse ? {height: '100vh', display: 'flex', flexDirection: 'row-reverse', justifyContent: 'space-around'} : {height: '100vh', display: 'flex', justifyContent: 'space-around'} }>
             <img src={props.src} alt={props.name} style={{height: '300px'}} />
 
             <div>
-                <h5>{props.name}</h5>
-                <h6>{props.title}</h6>
+                <h2>{props.name}</h2>
+                <h4>{props.title}</h4>
             </div>
         </ScrollAnimation>
     );
