@@ -12,19 +12,17 @@ const Activities = () => {
             src={require("../images/headshot.jpeg")}
             name="Cornell Hyperloop"
             title="Web Developer"
-            pos="odd"
         />,
         <Section
             src={require("../images/headshot.jpeg")}
             name="Cornell Current"
             title="Economy Sector Member"
-            pos="even"
+            reverse
         />,
         <Section
             src={require("../images/headshot.jpeg")}
             name="ACSU"
             title="General Member"
-            pos="odd"
         />
     ];
 
@@ -32,7 +30,7 @@ const Activities = () => {
         <div>
             <Nav />
 
-            <div className="d-flex" style={{height: '80vh'}}>
+            <div className="d-flex" style={{height: '70vh'}}>
                 <h1 className="mx-auto my-auto">Activities</h1>
             </div>
 

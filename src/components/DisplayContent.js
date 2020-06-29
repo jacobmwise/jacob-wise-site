@@ -1,10 +1,12 @@
 import React from "react";
+import Section from './subcomponents/Section';
 
 class DisplayContent extends React.Component {
     onClick = (e) => {
         var element = document.getElementById(e.target.innerText);
         element.scrollIntoView({behavior: 'smooth'});
     };
+
     render() {
         let scrollButtons = [];
         let showSections = [];

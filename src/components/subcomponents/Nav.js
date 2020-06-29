@@ -7,7 +7,7 @@ class Nav extends React.Component {
 
     renderLinks() {
 
-        var links = {"/": "Home", "/exp": "Professional Experience", "/act": "Activities", "/proj": "Projects" };
+        var links = {"/": "Home", "/exp": "Professional Experience", "/act": "Activities", "/proj": "Projects & Research" };
 
         var tags = [];
 
