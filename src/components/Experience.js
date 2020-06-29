@@ -24,16 +24,24 @@ const Experience = () => {
             reverse
         />
     ];
+
+    const height = document.getElementsByTagName('Nav');
+    console.log(height);
+    console.log(height);
+    console.log(height.__proto__);
         
     return (
         <div style={{scrollBehavior: 'smooth'}}>
             <Nav />
 
-            <div className="d-flex flex-column" style={{height: '70vh'}}>
-                <h1 className="mx-auto my-auto">Professional Experience</h1>
-            </div>
+            {/* style={{height: '100vh'}} */}
+            <div className="d-flex flex-column" style={{marginBottom: '122px'}}>
+                {/* <div className="d-flex h-100">
+                    <h1 className="mx-auto my-auto">Professional Experience</h1>
+                </div> */}
 
-            <DisplayContent sections={sections} />
+                <DisplayContent title="Professional Experience" sections={sections} />
+            </div>
 
             <Footer />
         </div>

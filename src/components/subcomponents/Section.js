@@ -3,8 +3,13 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Section = (props) => {
     return (
-        <ScrollAnimation animateIn='fadeIn' animateOut="fadeOut" className={props.reverse ? "d-flex flex-row-reverse w-75 mx-auto justify-content-around": "d-flex w-75 mx-auto justify-content-around" }>
-            <img src={props.src} alt={props.name} style={{height: '300px'}} />
+        <ScrollAnimation
+            animateIn='fadeIn'
+            animateOut="fadeOut"
+            className={props.reverse ? "d-flex flex-column flex-md-row-reverse w-75 mx-auto justify-content-around": "d-flex flex-column flex-md-row w-75 mx-auto justify-content-around" }
+            style={{height: '100vh'}}
+        >
+            <img src={props.src} alt={props.name} style={{height: '300px', width: '300px'}} />
 
             <div className="text-left">
                 <h2>{props.name}</h2>
