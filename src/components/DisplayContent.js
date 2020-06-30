@@ -19,7 +19,7 @@ class DisplayContent extends React.Component {
 
         this.props.sections.forEach(item => {
             showSections.push(<div key={item.props.name}><hr id={item.props.name} />{item}</div>);
-            scrollButtons.push(<button onClick={this.onClick} className="mx-1 btn btn-info border border-dark" key={item.props.name}>{item.props.name}</button>);
+            scrollButtons.push(<button onClick={this.onClick} className="mx-1 btn btn-info border border-dark" key={item.props.name} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">{item.props.name}</button>);
         });
 
         return (
