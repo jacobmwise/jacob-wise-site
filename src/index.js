@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Exp from './components/Experience';
 import Act from './components/Activities';
 import Proj from './components/Projects';
+import Contact from './components/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,8 @@ ReactDOM.render(
           <Route path="/act" exact component={Act} />
 
           <Route path="/proj" exact component={Proj} />
+
+          <Route path="/contact" exact component={Contact} />
         </Switch>
       </Router>
     </App>
