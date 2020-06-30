@@ -25,10 +25,10 @@ const Experience = () => {
         />
     ];
 
-    const height = document.getElementsByTagName('Nav');
-    console.log(height);
-    console.log(height);
-    console.log(height.__proto__);
+    // const height = document.getElementsByTagName('Nav');
+    // console.log(height);
+    // console.log(height);
+    // console.log(height.__proto__);
         
     return (
         <div style={{scrollBehavior: 'smooth'}}>

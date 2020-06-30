@@ -9,7 +9,8 @@ class DisplayContent extends React.Component {
         // console.log(Nav);
         var element = document.getElementById(e.target.innerText);
         // element.scrollIntoView({behavior: 'smooth'});
-        window.scrollTo(50, element.offsetTop);
+        console.log(element);
+        window.scrollTo(57, element.offsetTop - 57);
     };
 
     render() {

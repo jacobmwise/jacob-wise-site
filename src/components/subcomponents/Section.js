@@ -7,7 +7,7 @@ const Section = (props) => {
             animateIn='fadeIn'
             animateOut="fadeOut"
             className={props.reverse ? "d-flex flex-column flex-md-row-reverse w-75 mx-auto justify-content-around": "d-flex flex-column flex-md-row w-75 mx-auto justify-content-around" }
-            style={{height: '100vh'}}
+            // style={{height: '100vh'}}
         >
             <img src={props.src} alt={props.name} style={{height: '300px', width: '300px'}} />
 
@@ -16,7 +16,7 @@ const Section = (props) => {
                 <h4>{props.title}</h4>
                 <h5>{props.date}</h5>
 
-                <p className="w-50">{props.description}</p>
+                <p className="col-12">{props.description}</p>
             </div>
         </ScrollAnimation>
     );
