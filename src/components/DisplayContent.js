@@ -24,7 +24,7 @@ class DisplayContent extends React.Component {
 
         return (
             <div className="text-center">
-                <h1 className="h-100">{this.props.title}</h1>
+                <h1 className="my-5">{this.props.title}</h1>
 
                 {scrollButtons}
 

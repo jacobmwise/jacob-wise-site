@@ -30,11 +30,7 @@ const Activities = () => {
         <div>
             <Nav />
 
-            <div className="d-flex" style={{height: '70vh'}}>
-                <h1 className="mx-auto my-auto">Activities</h1>
-            </div>
-
-            <DisplayContent sections={sections} />
+            <DisplayContent title="Activities" sections={sections} />
 
             <Footer />
         </div>

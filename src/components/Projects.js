@@ -26,13 +26,10 @@ const Projects = () => {
     ];
 
     return (
-        <div style={{scrollBehavior: 'smooth'}}>
+        <div>
             <Nav />
 
-            <div className="d-flex flex-column" style={{marginBottom: '122px'}}>
-
-                <DisplayContent title="Projects & Research" sections={sections} />
-            </div>
+            <DisplayContent title="Projects & Research" sections={sections} />
 
             <Footer />
         </div>

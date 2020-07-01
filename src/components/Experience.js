@@ -9,14 +9,14 @@ import DisplayContent from './DisplayContent';
 const Experience = () => {
     const sections = [
         <Section
-            src={require("../images/headshot.jpeg")}
+            src="https://assets.hs-dev.net/images/hopscotch_logo.png"
             name="Hopscotch"
             title="Software Engineering Intern"
             date="January 2020 - Current"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         />,
         <Section
-            src={require("../images/headshot.jpeg")}
+            src={require("../images/inap.jpg")}
             name="INAP"
             title="Consulting Intern"
             date="May 2019 - June 2019"
@@ -31,17 +31,10 @@ const Experience = () => {
     // console.log(height.__proto__);
         
     return (
-        <div style={{scrollBehavior: 'smooth'}}>
+        <div>
             <Nav />
 
-            {/* style={{height: '100vh'}} */}
-            <div className="d-flex flex-column" style={{marginBottom: '122px'}}>
-                {/* <div className="d-flex h-100">
-                    <h1 className="mx-auto my-auto">Professional Experience</h1>
-                </div> */}
-
-                <DisplayContent title="Professional Experience" sections={sections} />
-            </div>
+            <DisplayContent title="Professional Experience" sections={sections} />
 
             <Footer />
         </div>

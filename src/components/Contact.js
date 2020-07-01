@@ -24,10 +24,12 @@ export default function ContactUs() {
         <div>
             <Nav />
 
-            <h1>Contact Form</h1>
-            <p>Contact me here with project suggestions, feedback, and any other inquiries.</p>
+            <div className="text-center">
+                <h1 className="mt-5">Contact Form</h1>
+                <p>Contact me here with project suggestions, feedback, and any other inquiries.</p>
+            </div>
 
-            <form className="contact-form mx-auto mt-5 col-12 col-md-4" id="contact" onSubmit={sendEmail} style={{height: '80vh'}}>
+            <form className="contact-form mx-auto mt-5 col-12 col-md-8" id="contact" onSubmit={sendEmail} style={{height: '80vh'}}>
                 <input type="hidden" name="contact_number" />
                 <div className="form-group">
                     <label>Name</label>
@@ -44,13 +46,13 @@ export default function ContactUs() {
                     <textarea className="form-control" name="message_html" />
                 </div>
                 
-                <input type="submit" value="Send" />
+                <input type="submit" value="Send" className="btn btn-info float-right" />
             </form>
 
             <Footer />
         </div>
     );
-  }
+}
 
 
 // class Contact extends React.Component {
