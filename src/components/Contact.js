@@ -30,7 +30,7 @@ class Contact extends React.Component {
   
     render() {
         return (
-            <div>
+            <div className="bg-light" style={{height: '100vh'}}>
                 <Nav />
 
                 <div className="text-center">
@@ -38,7 +38,7 @@ class Contact extends React.Component {
                     <p>Contact me here with project suggestions, feedback, and any other inquiries.</p>
                 </div>
 
-                <form className="contact-form mx-auto mt-5 col-12 col-md-8" id="contact" onSubmit={this.sendEmail} style={{height: '80vh'}}>
+                <form className="contact-form mx-auto mt-5 col-12 col-md-8" id="contact" onSubmit={this.sendEmail}>
                     <input type="hidden" name="to_name" value="Jacob" />
                     <div className="form-group">
                         <label>Name</label>
