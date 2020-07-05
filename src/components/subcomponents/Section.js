@@ -2,6 +2,9 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Section = (props) => {
+
+    const des =  {__html: props.description };
+
     return (
         <ScrollAnimation
             animateIn='fadeIn'
@@ -18,7 +21,7 @@ const Section = (props) => {
                 <h4>{props.title}</h4>
                 <h5>{props.date}</h5>
 
-                <p className="col-12">{props.description}</p>
+                <p className="col-12" dangerouslySetInnerHTML={ des }></p>
             </div>
         </ScrollAnimation>
     );

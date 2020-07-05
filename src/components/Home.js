@@ -24,6 +24,23 @@ const Home = () => {
         <li>CS 2110: Object-Oriented Programming and Data Structures</li>
         <li>AEM 1200: Introduction to Business Management</li>
       </ul>
+    </div>,
+    <div name="Skills & Languages" style={{height: '100vh'}}>
+      <h2>Skills & Programming Languages</h2>
+      <ul style={{listStyleType: 'none'}}>
+        <li>Proficient in JavaScript, Python, HTML, CSS PHP</li>
+        <li>Experience with React and Java</li>
+        <li>Microsoft Word, Powerpoint, and Excel</li>
+      </ul>
+    </div>,
+    <div name="Interests" style={{height: '100vh'}}>
+      <h2>Other Interests</h2>
+      <ul style={{listStyleType: 'none'}}>
+        <li>Food Trucks</li>
+        <li>Word Travel</li>
+        <li>Comedy</li>
+        <li>Rap/Hip-Hop</li>
+      </ul>
     </div>
   ];
 

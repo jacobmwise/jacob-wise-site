@@ -24,11 +24,6 @@ const Experience = () => {
             reverse
         />
     ];
-
-    // const height = document.getElementsByTagName('Nav');
-    // console.log(height);
-    // console.log(height);
-    // console.log(height.__proto__);
         
     return (
         <div>
