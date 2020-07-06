@@ -8,6 +8,7 @@ import Exp from './components/Experience';
 import Act from './components/Activities';
 import Proj from './components/Projects';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,8 @@ ReactDOM.render(
           <Route path="/proj" exact component={Proj} />
 
           <Route path="/contact" exact component={Contact} />
+
+          <Route path="/resume" exact component={Resume} />
         </Switch>
       </Router>
     </App>
