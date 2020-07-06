@@ -13,8 +13,8 @@ class Resume extends React.Component {
             <div className="bg-light" style={{height: '100vh'}}>
                 <Nav />
 
-                <Document file="../files/resume.pdf">
-
+                <Document file="/files/resume.pdf">
+                    <Page pageNumber={1} />
                 </Document>
 
                 <Footer />
