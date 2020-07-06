@@ -28,7 +28,7 @@ const Home = () => {
     <div name="Skills & Languages" style={{height: '100vh'}}>
       <h2>Skills & Programming Languages</h2>
       <ul style={{listStyleType: 'none'}}>
-        <li>Proficient in JavaScript, Python, HTML, CSS PHP</li>
+        <li>Proficient in JavaScript, Python, HTML, CSS, PHP, and SQL</li>
         <li>Experience with React and Java</li>
         <li>Microsoft Word, Powerpoint, and Excel</li>
       </ul>
