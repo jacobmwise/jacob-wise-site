@@ -45,7 +45,7 @@ class Resume extends React.Component {
             <div className="bg-light" style={{height: '100vh'}}>
                 <Nav />
                 
-                <div ref={this.myInput}>
+                <div ref={this.myInput} className="bg-light" style={{height: '100vh'}}>
                     <Document
                         file="/files/resume.pdf"
                         // onLoadError={console.error}

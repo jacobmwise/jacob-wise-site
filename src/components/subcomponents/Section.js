@@ -8,9 +8,8 @@ const Section = (props) => {
     return (
         <ScrollAnimation
             animateIn='fadeIn'
-            duration={2}
+            duration={3}
             animateOnce={true}
-            // animateOut="fadeOut"
             className={props.reverse ? "d-flex flex-column flex-md-row-reverse w-75 mx-auto justify-content-around": "d-flex flex-column flex-md-row w-75 mx-auto justify-content-around" }
             style={{height: '100vh'}}
         >
