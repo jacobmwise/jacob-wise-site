@@ -26,7 +26,10 @@ class DisplayContent extends React.Component {
             <div className="text-center">
                 <h1 className="my-5">{this.props.title}</h1>
 
-                {scrollButtons}
+                {/* <div className="d-flex flex"> */}
+                    {scrollButtons}
+                {/* </div> */}
+                
 
                 {showSections}
             </div>

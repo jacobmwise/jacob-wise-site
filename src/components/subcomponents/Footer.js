@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className="bg-info fixed-bottom d-flex justify-content-around border-top border-dark" style={{minHeight: "122px"}}>
-            <div className="d-flex flex-column my-auto">
+            <div className="d-flex flex-column col-7 col-md-5 my-auto">
                 <h5 className="mr-3">Contact</h5>
                 <ul className="d-flex flex-column flex-lg-row" style={{listStyleType: 'none'}}>
                     <li className="mx-2">(914)330-1561</li>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <h5 className="mr-3">Resume</h5>
                 <ul className="d-flex flex-column flex-lg-row" style={{listStyleType: 'none'}}>
                     <li className="mx-2"><a href="/resume" className="text-dark" style={{color: 'black'}}><i className="fa fa-file fa-2x"></i></a></li>
-                    {/* <li className="h-100"></li> */}
+                    <li className="mx-2"><a href="files/resume.pdf" download className="text-dark" style={{color: 'black'}}><i class="fa fa-download fa-2x"></i></a></li>
                 </ul>
             </div>
         </div>

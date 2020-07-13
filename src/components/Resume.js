@@ -14,7 +14,13 @@ class Resume extends React.Component {
                     <a href="files/resume.pdf" download>
                         Download
                     </a>
-                    <img src={require("../images/resume.png")} alt="resume" />
+
+                    <img
+                        src={require("../images/resume.png")}
+                        alt="resume"
+                        className="w-50 mx-auto"
+                        // style={{width: '50%', height: 'auto', margin: 'auto'}}
+                    />
                 </div>
 
                 <Footer />
