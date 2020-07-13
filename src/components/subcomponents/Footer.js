@@ -22,6 +22,7 @@ const Footer = () => {
                 <h5 className="mr-3">Resume</h5>
                 <ul className="d-flex flex-column flex-lg-row" style={{listStyleType: 'none'}}>
                     <li className="mx-2"><a href="/resume" className="text-dark" style={{color: 'black'}}><i className="fa fa-file fa-2x"></i></a></li>
+                    {/* <li className="h-100"></li> */}
                 </ul>
             </div>
         </div>
