@@ -9,7 +9,7 @@ import DisplayContent from './DisplayContent';
 const Activities = () => {
     const sections = [
         <Section
-            src={require("../images/headshot.jpeg")}
+            src={require("../images/hyperloop.png")}
             name="Cornell Hyperloop"
             title="Web Developer"
             date="2020"
@@ -23,7 +23,7 @@ const Activities = () => {
             understanding of business-side functions. Some of my work can be seen at the team's website <a href='https://hyperloop.cornell.edu/' target='_blank'>here</a>."
         />,
         <Section
-            src={require("../images/headshot.jpeg")}
+            src={require("../images/current.png")}
             name="Cornell Current"
             title="Economy Sector Member"
             date="2020"
@@ -36,9 +36,16 @@ const Activities = () => {
             reverse
         />,
         <Section
-            src={require("../images/headshot.jpeg")}
-            name="ACSU"
+            src={require("../images/acsu.png")}
+            name="Association of Computer Science Undergraduates"
             title="General Member"
+            date="2019-2020"
+            description="ACSU is a general computer science organization aimed at promoting professional, educational, and social opportunities 
+            for any and all undergraduates interested in computer science. Through ACSU, I've attended many professional workshops and information 
+            sessions, which have provided various opportunities to learn more about industries within the broad spectrum of <q>computer science</q> 
+            and discover what I am most interested. ACSU has also become a means of expanding my network within the Cornell CS community and meet 
+            students with similar interests and experiences, and has even led to me forming relationships with classmates and joining or supporting 
+            certain initiatives across campus, even outside of computer science."
         />
     ];
 

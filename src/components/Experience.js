@@ -9,7 +9,7 @@ import DisplayContent from './DisplayContent';
 const Experience = () => {
     const sections = [
         <Section
-            src="https://assets.hs-dev.net/images/hopscotch_logo.png"
+            src={require("../images/hopscotch.png")}
             name="Hopscotch"
             title="Software Engineering Intern"
             date="January 2020 - Current"
