@@ -26,7 +26,7 @@ const Projects = () => {
             date="March - April 2020"
             description="My final project prompt for INFO 2950: Introduction to Data Science was pretty open ended; we were required to use our knowledge from 
             throughout the semester to analyze and answer a research question to our greatest ability. My group decided to use MLB statistics to answer the following: 
-            what factors and statistics lead MLB hitters to receive higher salaries?"
+            what factors and statistics lead MLB hitters to receive higher salaries?<br /><br />You can access the project <a href='https://github.com/jacobmwise/mlb_salary_analysis' target='_blank'>here</a>."
             reverse
         />
     ];
