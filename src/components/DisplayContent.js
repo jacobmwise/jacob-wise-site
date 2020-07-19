@@ -30,8 +30,9 @@ class DisplayContent extends React.Component {
                     {scrollButtons}
                 {/* </div> */}
                 
-
-                {showSections}
+                <div style={{marginBottom: '150px'}}>
+                    {showSections}
+                </div>
             </div>
         );
     }
