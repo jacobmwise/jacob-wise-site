@@ -19,7 +19,7 @@ class DisplayContent extends React.Component {
 
         this.props.sections.forEach(item => {
             showSections.push(<div key={item.props.name}><hr id={item.props.name} />{item}</div>);
-            scrollButtons.push(<button onClick={this.onClick} className="mx-1 btn btn-info border border-dark" key={item.props.name} type="button" data-toggle="collapse" data-target=".navbar-collapse.show">{item.props.name}</button>);
+            scrollButtons.push(<button onClick={this.onClick} className="mx-1 my-1 btn btn-info border border-dark" key={item.props.name} type="button" data-toggle="collapse" data-target=".navbar-collapse.show">{item.props.name}</button>);
         });
 
         return (
@@ -30,7 +30,7 @@ class DisplayContent extends React.Component {
                     {scrollButtons}
                 {/* </div> */}
                 
-                <div style={{marginBottom: '150px'}}>
+                <div style={{paddingBottom: '150px'}}>
                     {showSections}
                 </div>
             </div>

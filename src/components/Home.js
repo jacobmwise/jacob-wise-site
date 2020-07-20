@@ -11,61 +11,71 @@ import DisplayContent from './DisplayContent';
 const Home = () => {
   const sections = [
     <ScrollAnimation
+        name="About Me"
+        animateIn='fadeIn'
+        duration={3}
+        animateOnce={true}
+        // style={{height: '100vh'}}
+        className="d-flex flex-column flex-md-row"
+    >
+      <img src={require("../images/headshot.jpeg")} alt="headshot" className="mx-auto" style={{height: '300px', width: '300px', objectFit: 'scale-down'}} />
+      <p className="mx-auto my-auto col-md-8">My name is Jacob Wise, and I am a junior at Cornell University originally from the small town of Ardsley in 
+        Westchester, NY. Currently, aside from being a student, I am working for a Cornell-based startup called Hopscotch as a software engineer, as 
+        highlighted on the Experience page of this site. Although this experience as a full-stack developer leans more towards the React based UI with some 
+        emphasis on the Golang server-side, I am very interested in data science as well, and have spent my time and coursework builing a reservoir of 
+        languages and skills to perform related tasks. My ultimate goal, after taking more upcoming coursework in analytics and interactive tech, is to use 
+        data and development skills to better understand, improve, and build out technologies that positively contribute to our world today.
+      </p>
+    </ScrollAnimation>,
+    <ScrollAnimation
         name="Education"
         animateIn='fadeIn'
         duration={3}
         animateOnce={true}
-        style={{height: '100vh'}}
+        className="d-flex flex-column flex-md-row"
     >
-      <h2>Cornell University Class of 2022</h2>
-      <h6>B.S. in Information Science</h6>
-      <h6>Concentration in Data Science</h6>
-      <h6>Business Minor</h6>
+      <div className="col-12 col-md-6">
+        <h2>Cornell University Class of 2022</h2>
+        <ul style={{listStyleType: 'none'}} className="text-left col-12 col-md-8 mx-auto">
+          <li>College of Agriculture and Life Sciences</li>
+          <li>B.S. in Information Science</li>
+          <li>Concentration in Data Science</li>
+          <li>Business Minor</li>
+        </ul>
+      </div>
+
+      <div className="col-12 col-md-6">
+        <h2>Relevant Coursework</h2>
+        <ul style={{listStyleType: 'none'}} className="text-left col-12 col-md-8 mx-auto">
+          <li>INFO 2950: Introduction to Data Science</li>
+          <li>INFO 2300: Intermediate Web Programming and Design</li>
+          <li>CS 1110: Introduction to Computing Using Python</li>
+          <li>CS 2110: Object-Oriented Programming and Data Structures</li>
+          <li>AEM 1200: Introduction to Business Management</li>
+        </ul>
+      </div>
     </ScrollAnimation>,
     <ScrollAnimation
-        name="Relevant Coursework"
+        name="Skills & Interests"
         animateIn='fadeIn'
         duration={3}
         animateOnce={true}
-        style={{height: '100vh'}}
+        className="d-flex flex-column flex-md-row"
     >
-      <h2>Relevant Coursework</h2>
-      <ul style={{listStyleType: 'none'}}>
-        <li>INFO 2950: Introduction to Data Science</li>
-        <li>INFO 2300: Intermediate Web Programming and Design</li>
-        <li>CS 1110: Introduction to Computing Using Python</li>
-        <li>CS 2110: Object-Oriented Programming and Data Structures</li>
-        <li>AEM 1200: Introduction to Business Management</li>
-      </ul>
-    </ScrollAnimation>,
-    <ScrollAnimation
-        name="Skills & Languages"
-        animateIn='fadeIn'
-        duration={3}
-        animateOnce={true}
-        style={{height: '100vh'}}
-    >
-      <h2>Skills & Programming Languages</h2>
-      <ul style={{listStyleType: 'none'}}>
-        <li>Proficient in JavaScript, Python, HTML, CSS, PHP, and SQL</li>
-        <li>Experience with React and Java</li>
-        <li>Microsoft Word, Powerpoint, and Excel</li>
-      </ul>
-    </ScrollAnimation>,
-    <ScrollAnimation
-        name="Interests"
-        animateIn='fadeIn'
-        duration={3}
-        animateOnce={true}
-        style={{height: '100vh'}}
-    >
-      <h2>Other Interests</h2>
-      <ul style={{listStyleType: 'none'}}>
-        <li>Food Trucks</li>
-        <li>Word Travel</li>
-        <li>Comedy</li>
-        <li>Rap/Hip-Hop</li>
-      </ul>
+      <div className="col-12 col-md-6">
+        <h2>Skills & Programming Languages</h2>
+        <ul style={{listStyleType: 'none'}} className="text-left col-12 col-md-8 mx-auto">
+          <li>Javascript, Python, SQL, Java</li>
+          <li>HTML, CSS, PHP</li>
+          <li>Experience with React and Bootstrap</li>
+          <li>Microsoft Word, Powerpoint, and Excel</li>
+        </ul>
+      </div>
+
+      <div className="col-12 col-md-6">
+        <h2>Other Interests</h2>
+        <p className="text-left col-12 col-md-8 mx-auto">In my free time, I like to spend time with my family and friends and enjoy the following: food trucks, traveling, comedy, hip-hop/rap, and NBA 2K</p>
+      </div>
     </ScrollAnimation>
   ];
 
