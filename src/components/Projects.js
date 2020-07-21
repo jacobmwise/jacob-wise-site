@@ -28,6 +28,7 @@ const Projects = () => {
             throughout the semester to analyze and answer a research question to our greatest ability. My group decided to use MLB statistics to answer the following: 
             what factors and statistics lead MLB hitters to receive higher salaries?<br /><br />You can access the project <a href='https://github.com/jacobmwise/mlb_salary_analysis' target='_blank'>here</a>."
             reverse
+            last
         />
     ];
 

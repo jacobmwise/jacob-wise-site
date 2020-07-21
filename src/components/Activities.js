@@ -46,6 +46,7 @@ const Activities = () => {
             and discover what I am most interested. ACSU has also become a means of expanding my network within the Cornell CS community and meet 
             students with similar interests and experiences, and has even led to me forming relationships with classmates and joining or supporting 
             certain initiatives across campus, even outside of computer science."
+            last
         />
     ];
 

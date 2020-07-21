@@ -61,6 +61,7 @@ const Home = () => {
         duration={3}
         animateOnce={true}
         className="d-flex flex-column flex-md-row"
+        style={{height: '80vh'}}
     >
       <div className="col-12 col-md-6">
         <h2>Skills & Programming Languages</h2>

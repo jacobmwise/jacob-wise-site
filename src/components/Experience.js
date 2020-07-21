@@ -41,6 +41,7 @@ const Experience = () => {
             them, my leadership, patience, and communication skills developed tremendously. Organizing bunk and division events was only part of 
             the job; what I learned the most as I grew up at Schodack is how to balance responsibility, safety, and fun for myself and others. Although 
             it's only a summer camp, I cannot thank Schodack enough for my growth as a student, a professional, and most importantly, a person."
+            last
         />
     ];
         
