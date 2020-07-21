@@ -13,7 +13,12 @@ const Experience = () => {
             name="Hopscotch"
             title="Software Engineering Intern"
             date="January 2020 - Current"
-            description="At the beginning of 2020, I was given the opportunity to join a Cornell-based startup as a software engineer."
+            description="At the beginning of 2020, I joined a Cornell-based startup as a software engineer. I became part of a small team responsible for working 
+            closely with our CTO to develop a web application MVP for our telehealth pilot program. Using a React-based UI connected to a Golang server, I developed 
+            several screens for our webapp, which included user registration and various <q>exercises</q> for the users. As my first real programming work experience, 
+            I am very grateful to work for a startup and build out a project from scratch; Hopscotch has given me the opportunity to vastly expand my development and 
+            design skills, learn three new languages/libraries in React, Go, and SQL, all while gaining key insight on startup culture by witnessing the business develop 
+            firsthand. I have remained with Hopscotch through Summer 2020 and our MVP launch, and have moved on from UI development to unit testing on the client and server side."
         />,
         <Section
             src={require("../images/inap.jpg")}
