@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import {isBrowser} from 'react-device-detect';
 
 import Nav from './subcomponents/Nav';
@@ -17,14 +16,7 @@ const Home = () => {
   }
 
   const sections = [
-    <ScrollAnimation
-        name="About Me"
-        animateIn='fadeIn'
-        duration={3}
-        animateOnce={true}
-        className="d-flex flex-column flex-md-row"
-        style={{height: secHeight}}
-    >
+    <div name="About Me" className="d-flex flex-column flex-md-row" style={{height: secHeight}}>
       <img src={require("../images/headshot.jpeg")} alt="headshot" className="mx-auto my-auto" style={{height: '300px', width: '300px', objectFit: 'scale-down'}} />
       <p className="mx-auto my-auto col-md-8 text-left">My name is Jacob Wise, and I am a junior at Cornell University originally from the small town of Ardsley in 
         Westchester, NY. Currently, aside from being a student, I am working for a Cornell-based startup called Hopscotch as a software engineer, as 
@@ -33,15 +25,8 @@ const Home = () => {
         languages and skills to perform related tasks. My ultimate goal, after taking more upcoming coursework in analytics and interactive tech, is to use 
         data and development skills to better understand, improve, and build out technologies that positively contribute to our world today.
       </p>
-    </ScrollAnimation>,
-    <ScrollAnimation
-        name="Education"
-        animateIn='fadeIn'
-        duration={3}
-        animateOnce={true}
-        className="d-flex flex-column flex-md-row"
-        style={{height: secHeight}}
-    >
+    </div>,
+    <div name="Education" className="d-flex flex-column flex-md-row" style={{height: secHeight}}>
       <div className="col-12 col-md-6" style={{marginTop: divStyle}}>
         <i className="fa fa-graduation-cap fa-5x my-4"></i>
         <h2>Cornell University Class of 2022</h2>
@@ -64,15 +49,8 @@ const Home = () => {
           <li>AEM 1200: Introduction to Business Management</li>
         </ul>
       </div>
-    </ScrollAnimation>,
-    <ScrollAnimation
-        name="Skills & Interests"
-        animateIn='fadeIn'
-        duration={3}
-        animateOnce={true}
-        className="d-flex flex-column flex-md-row"
-        style={{height: secHeight}}
-    >
+    </div>,
+    <div name="Skills & Interests" className="d-flex flex-column flex-md-row" style={{height: secHeight}}>
       <div className="col-12 col-md-6" style={{marginTop: divStyle}}>
         <i className="fa fa-code fa-5x my-4"></i>
         <h2>Skills & Programming Languages</h2>
@@ -89,7 +67,7 @@ const Home = () => {
         <h2>Other Interests</h2>
         <p className="text-left col-12 col-md-8 mx-auto">In my free time, I like to spend time with my family and friends and enjoy the following: food trucks, traveling, comedy, hip-hop/rap, and NBA 2K</p>
       </div>
-    </ScrollAnimation>
+    </div>
   ];
 
   return (

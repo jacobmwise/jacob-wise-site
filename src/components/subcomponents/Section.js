@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import {isBrowser} from 'react-device-detect';
 
 const Section = (props) => {
@@ -17,10 +16,7 @@ const Section = (props) => {
     }
 
     return (
-        <ScrollAnimation
-            animateIn='fadeIn'
-            duration={3}
-            animateOnce={true}
+        <div
             className={props.reverse ? "d-flex flex-column flex-md-row-reverse w-75 mx-auto justify-content-around": "d-flex flex-column flex-md-row w-75 mx-auto justify-content-around" }
             style={{height: secHeight}}
         >
@@ -33,7 +29,7 @@ const Section = (props) => {
 
                 <p className="col-12 text-left" dangerouslySetInnerHTML={ des }></p>
             </div>
-        </ScrollAnimation>
+        </div>
     );
 };
 
