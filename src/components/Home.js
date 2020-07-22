@@ -26,7 +26,7 @@ const Home = () => {
         style={{height: secHeight}}
     >
       <img src={require("../images/headshot.jpeg")} alt="headshot" className="mx-auto my-auto" style={{height: '300px', width: '300px', objectFit: 'scale-down'}} />
-      <p className="mx-auto my-auto col-md-8">My name is Jacob Wise, and I am a junior at Cornell University originally from the small town of Ardsley in 
+      <p className="mx-auto my-auto col-md-8 text-left">My name is Jacob Wise, and I am a junior at Cornell University originally from the small town of Ardsley in 
         Westchester, NY. Currently, aside from being a student, I am working for a Cornell-based startup called Hopscotch as a software engineer, as 
         highlighted on the Experience page of this site. Although this experience as a full-stack developer leans more towards the React based UI with some 
         emphasis on the Golang server-side, I am very interested in data science as well, and have spent my time and coursework builing a reservoir of 
